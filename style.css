@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Nanum Gotnphic', sans-serif;
+ }
+
+ body {
+     background-color: #F1B641;
+ }
+
+ header {
+     height: 100px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .cabecalho {
+     height: 50px;
+     width: 80%;
+     background-color: #FDEDD5;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-radius: 80px;
+ }
+
+ .flavo {
+     font-size: 25px;
+     font-weight: 700;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-style: italic;
+ }
+
+ .top figure {
+     display: flex;
+     align-items: center;
+
+ }
+
+
+ .menu {
+     height: 30px;
+     margin-left: 10px;
+ }
+
+ .compras {
+     height: 30px;
+     margin-right: 10px;
+ }
+
+ .compras:hover, .menu:hover{
+    cursor: pointer;
+ }
+
+ /* parte da  main */
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.produto{
+    width: 300px;
+   
+}
+.valor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+h2{
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.part-first{
+    margin: 20px 0px 20px 0px;
+}
+
+ .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 21px ;
+  
+    
+}
+
+.part-second{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+}
+
+form input{
+   margin: 0px 10px 0px 10px;
+   color: black;
+}
+    
+.qnt{
+    background-color: #F1B641;
+    width: 100%;
+    border-radius: 80px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+    border: solid black 3px;
+    font-size: 26px;
+    word-spacing: 100px;
+    
+}
+
+.add{
+    margin: 0px 0px 20px 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 80px;
+    height: 38px;
+    font-size: 20px;
+}
+ .add:hover{
+    cursor: pointer;
+ }
